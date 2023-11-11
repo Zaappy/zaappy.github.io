@@ -1,7 +1,32 @@
-body {
-  font-family: Helvetica;
+html {
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 p {
-  font-size: 13px;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #808080;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  color: whitesmoke;
+}
+
+#footerLeft {
+  margin-left: 10px;
+}
+
+#footerRight {
+  margin-right: 10px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
