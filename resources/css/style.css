@@ -6,6 +6,27 @@ p {
   font-size: 15px;
 }
 
+.info-section {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  padding: 20px;
+  background-color: #505050;
+  color: whitesmoke;
+  border-radius: 20px;
+}
+
+.info-section h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#about-me {
+  position: absolute;
+  top: 400px;
+  height: 250px;
+}
+
 footer {
   background-color: #808080;
   position: absolute;
@@ -19,14 +40,15 @@ footer p {
   color: whitesmoke;
 }
 
-#footerLeft {
+#footer-left {
+  float: left;
   margin-left: 10px;
+  width: 40%;
 }
 
-#footerRight {
-  margin-right: 10px;
+#footer-right {
   text-align: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  float: right;
+  margin-right: 10px;
+  width: 40%;
 }
