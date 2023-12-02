@@ -1,39 +1,76 @@
+/* Root/Default tags */
 html {
   font-family: 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-image: url(../images/home_background.png);
+  background-color: #202020;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 7rem;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: whitesmoke;
 }
 
 p {
-  font-size: 15px;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+/* Header/Nav/Logo */
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #202020;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px 10px #202020;
+}
+
+header span { /* Placeholder */
+  color: whitesmoke;
+  max-height: 5rem;
+  font-size: 5rem;
+}
+
+/* Main content */
+.content {
+  position: relative;
+  top: 500px;
 }
 
 .info-section {
   position: absolute;
   left: 10%;
   right: 10%;
-  padding: 20px;
-  background-color: #505050;
-  color: whitesmoke;
+  padding: 1.5rem;
+  background-color: #313131;
+  border-style: solid;
+  border-color: #212121;
+  border-width: 5px;
   border-radius: 20px;
-}
-
-.info-section h1 {
-  margin-top: 0;
-  margin-bottom: 0;
+  box-shadow: 0px 0px 1rem 1rem #0a0a0a;
 }
 
 #about-me {
-  position: absolute;
-  top: 400px;
-  height: 250px;
+  height: 1000px;
 }
 
+/* Footer */
 footer {
-  background-color: #808080;
+  background-color: #2f2f2f;
   position: absolute;
   width: 100%;
   bottom: 0;
   left: 0;
-  right: 0;
 }
 
 footer p {
