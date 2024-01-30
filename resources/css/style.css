@@ -1,84 +1,118 @@
 /* Root/Default tags */
 html {
   font-family: 'Trebuchet MS', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
   background-image: url(../images/home_background.png);
+  background-attachment: fixed;
   background-color: #202020;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 7rem;
+  background-position-y: 2rem;
+  margin: auto 8rem;
 }
 
 h1 {
   margin-top: 0;
   margin-bottom: 0;
   color: whitesmoke;
+  font-style: italic;
+  font-size: 44px;
 }
 
-p {
-  font-size: 1rem;
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+p,
+ul {
+  font-size: 22px;
+  color: whitesmoke;
+  line-height: 1.5rem;
+}
+
+a {
   color: whitesmoke;
 }
 
-/* Logo 1 */
-#logo-big {
-  position: relative;
-  top: 2rem;
-  z-index: 1;
-  max-height: 18rem;
-  margin: 0px 10rem;
-}
-
-/* Header/Nav/Logo 2 */
+/* Header/Nav */
 header {
   position: fixed;
   z-index: 100;
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #202020;
   padding: 1rem 3rem;
+  background-color: #202020;
   box-shadow: 0px 0px 20px 20px #202020;
 }
 
 /* Main content */
-.content {
+#logo-main {
+  display: flex;
   position: relative;
-  top: 200px;
+  top: 3rem;
+  z-index: 1;
+  max-height: 18rem;
+  margin-left: 2rem;
+  margin-top: 10rem;
+  filter: drop-shadow(10px 10px 5px #0f0f0f);
 }
 
 .info-section {
   z-index: 0;
-  position: absolute;
-  left: 10%;
-  right: 10%;
-  padding: 1.5rem;
+  position: relative;
+  margin-bottom: 3.5rem;
+  padding: 1.75rem;
   background-color: #313131;
   border-style: solid;
-  border-color: #212121;
+  border-color: #202020;
   border-width: 5px;
   border-radius: 20px;
-  box-shadow: 0px 0px 1rem 1rem #0a0a0a;
+  box-shadow: 0px 0px 1rem 1rem #121212;
 }
 
-/* #about-me {
-  height: 1000px;
-} */
+.list-header {
+  line-height: 0rem;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.spec-list {
+  color: #c3c3c3;
+}
+
+#social-links {
+  width: 100%;
+}
+
+#social-links p {
+  text-align: center;
+}
+
+#social-links a {
+  color: crimson;
+  text-decoration: underline;
+}
+
+#thank-you {
+  font-size: 12px;
+  text-align: center;
+}
 
 /* Footer */
 footer {
-  position: absolute;
   z-index: 100;
   width: 100%;
   bottom: 0;
   left: 0;
-}
-
-footer p {
-  color: #757575;
+  margin-top: 3rem;
 }
 
 #footer-left {
@@ -94,6 +128,10 @@ footer p {
   width: 40%;
 }
 
+footer p {
+  color: #757575;
+}
+
 #footer-right a {
-  color: crimson;
+  color: #7b7b7b;
 }

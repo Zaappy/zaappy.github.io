@@ -1,4 +1,4 @@
 # [protozappy.art](https://protozappy.art)
-This is the repo for my work-in-progress website. It will be updated soon to have interesting tidbits about me, as well as potentially an art gallery.
+This is the repo for my website. I'll be adding more fun features in the near(ish) future. All image assets created by me.
 
-*Brought to you by Zappy, Lo-fi, and Coffee.*
+*Brought to you by Zappy, Lo-fi, Green Tea, and Coffee.* :heart:
