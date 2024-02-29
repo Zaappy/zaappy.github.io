@@ -194,6 +194,6 @@ footer p {
   }
 
   #social-links p {
-    line-height: 0;
+    line-height: normal;
   }
 }
