@@ -1,3 +1,5 @@
+/* ----------Desktop---------- */
+
 /* Root/Default tags */
 html {
   font-family: 'Trebuchet MS', sans-serif;
@@ -11,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 2rem;
-  margin: auto 8rem;
+  margin: auto 10%;
 }
 
 h1 {
@@ -59,7 +61,7 @@ header {
   position: relative;
   top: 3rem;
   z-index: 1;
-  max-height: 18rem;
+  max-width: 85%;
   margin-left: 2rem;
   margin-top: 10rem;
   filter: drop-shadow(10px 10px 5px #0f0f0f);
@@ -88,9 +90,18 @@ header {
   color: #c3c3c3;
 }
 
-#social-links {
+#socials-desktop {
+  display: block;
+}
+
+#socials-desktop #social-links {
   width: 100%;
 }
+
+#socials-mobile {
+  display: none;
+}
+
 
 #social-links p {
   text-align: center;
@@ -134,4 +145,55 @@ footer p {
 
 #footer-right a {
   color: #7b7b7b;
+}
+
+
+/* ----------Mobile---------- */
+
+@media only screen and (max-width: 600px) {
+
+  /* Root/Default tags */
+  body {
+    background-size: contain;
+    margin: auto 5%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p,
+  ul {
+    font-size: 18px;
+    line-height: 1.25rem;
+  }
+
+  /* Main content */
+  #logo-main {
+    top: 3rem;
+    margin-bottom: 1rem;
+    max-width: 80%;
+    margin-left: 1rem;
+    margin-top: 5rem;
+  }
+
+  #socials-mobile {
+    display: block;
+  }
+
+  #socials-mobile #social-links {
+    width: 100%;
+  }
+
+  #socials-desktop {
+    display: none;
+  }
+
+  #social-links p {
+    line-height: 0;
+  }
 }
